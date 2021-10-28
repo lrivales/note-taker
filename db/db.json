@@ -6,5 +6,13 @@
   {
     "title": "My Title",
     "text": "My text"
+  },
+  {
+    "title": "My Sample Note",
+    "text": "My sample test"
+  },
+  {
+    "title": "New Note",
+    "text": "New text"
   }
 ]
