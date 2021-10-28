@@ -104,7 +104,6 @@ const handleNoteView = (e) => {
   console.log("You are in handleNoteView");
   e.preventDefault();
   activeNote = JSON.parse(e.target.parentElement.getAttribute('data-note'));
-  activeNote.id = true;
   console.log(JSON.stringify(activeNote));
   renderActiveNote(activeNote);
 };
@@ -113,7 +112,6 @@ const handleNoteView = (e) => {
 const handleNewNoteView = (e) => {
   console.log("You are in handleNewNoteView");
   activeNote = {};
-  activeNote.id = false;
   renderActiveNote(activeNote);
 };
 
